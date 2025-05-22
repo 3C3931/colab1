@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNGo26RuKIbpvVXrsS2mPLR",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/3C3931/colab1/blob/main/5/15%E8%A3%9C%E7%B9%B3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "mqhL2c_w3eh3",
+        "outputId": "9e155161-dfb2-4095-93f7-84fb92fec988"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "unterminated string literal (detected at line 2) (<ipython-input-1-0d535bd78ca9>, line 2)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-1-0d535bd78ca9>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    Let's say we have an essay named 'text_01' and is classified as a text object.\u001b[0m\n\u001b[0m                                             ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unterminated string literal (detected at line 2)\n"
+          ]
+        }
+      ],
+      "source": [
+        "nltk is a powerful Python library used for working with human language data.\n",
+        "Let's say we have an essay named 'text_01' and is classified as a text object.\n",
+        "Fill in all the ??? to satisfy all the annotation above each function.\n",
+        "#####\n",
+        "\n",
+        "# 文章中字詞出現次數\n",
+        "text_01.?????(\"sad\")\n",
+        "\n",
+        "# 搜尋字詞功能\n",
+        "text_01.???????????(\"sad\", lines=100)  # 查找 'sad' 出現的上下文\n",
+        "# 搜尋關聯字\n",
+        "text_01.???????(\"sad\")   # 可能會顯示happy，因為是情感對立詞\n",
+        "# ex. She is a happy child. He is a sad boy."
+      ]
+    }
+  ]
+}
