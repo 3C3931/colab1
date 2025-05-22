@@ -1,0 +1,74 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPEaLoYwZqjjmDw8IXFwIzj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/3C3931/colab1/blob/main/5%E6%9C%8815%E8%A3%9C%E7%B9%B3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "2fUGKJJk2oHS",
+        "outputId": "fc54da3b-5d51-493a-b743-e5f58fbed1a0"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid syntax (<ipython-input-1-ce21264baf70>, line 4)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-1-ce21264baf70>\"\u001b[0;36m, line \u001b[0;32m4\u001b[0m\n\u001b[0;31m    return a.?????()\u001b[0m\n\u001b[0m             ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ],
+      "source": [
+        "zoo_animals = [\"Dog\", \"Cat\", \"Bird\",\"Tiger\", \"Elephant\"]\n",
+        "\n",
+        "def uppertext(a):\n",
+        "  return a.?????()\n",
+        "def lowertext(a):\n",
+        "  return a.?????()\n",
+        "\n",
+        "for x in zoo_animals:\n",
+        "  print(uppertext(x))\n",
+        "  print(lowertext(x))\n",
+        "# fill in the ????? so it can print the answer below:DOG\n",
+        "dog\n",
+        "CAT\n",
+        "cat\n",
+        "BIRD\n",
+        "bird\n",
+        "TIGER\n",
+        "tiger\n",
+        "ELEPHANT\n",
+        "elephant"
+      ]
+    }
+  ]
+}
